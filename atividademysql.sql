@@ -43,9 +43,6 @@ INSERT INTO pedidos (id_cliente, id_presente, data_entrega, presente_entregue, m
 (3, 3, '2025-06-12', TRUE, 'Sempre com você, meu amor!'),
 (4, 4, '2025-06-13', FALSE, 'Para iluminar seu coração como você ilumina o meu.');
 
-UPDATE pedidos
-SET status = 'Entregue'
-WHERE id = 'Urso de Pelúcia';
 
 
 UPDATE presentes
